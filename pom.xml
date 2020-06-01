@@ -9,7 +9,7 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>org.ms</groupId>
-    <artifactId>webrtc-signaling-server</artifactId>
+    <artifactId>webrtc-signaling-server-websocket</artifactId>
     <version>latest-SNAPSHOT</version>
     <name>webrtc-signaling-server</name>
     <description>WebRTC 信令服务</description>
@@ -60,7 +60,7 @@
 
         <dependency>
             <groupId>org.ms</groupId>
-            <artifactId>webrtc-common-request-response</artifactId>
+            <artifactId>webrtc-signaling-common-request-response</artifactId>
             <version>latest</version>
         </dependency>
         <dependency>
